@@ -1,0 +1,376 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle,#dfecee, #de95d1 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sora', sans-serif;
+}
+
+.cartbody{
+    width: 50%;
+    height: 85%;
+    background-color: #ecf2f4f7;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #6a2b6833;
+}
+
+.formheader
+   {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formtitle
+   {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3841;
+}
+
+.deleteall
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.itemslist{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: grid;
+    align-items: center;
+}
+
+.workdress{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.imgcontainer1{
+    display: flex;
+    width: 15%;
+    text-align: center;
+}
+   
+.description{
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+   
+.title{ 
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #202020;
+}
+   
+.size{
+    line-height: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #909090;
+}
+
+.counter{
+    padding-bottom: 20px;
+    width: 15%;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    align-items:center;
+}
+
+.add, .minus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+
+.count{
+    font-size: 15px;
+    font-weight: 500;
+    color: #200707;
+}
+
+.price{
+    height: 100%;
+    text-align: right;
+ 
+}
+
+.amount{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #202020;
+}
+
+.deleteitem{
+    padding-top: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+
+hr{
+    width: 75%;
+    float: right;
+}
+
+.sumup{
+    display: flex;
+    justify-content:space-between;
+    font-size: 18px;
+    font-weight: 800;
+    color: #202020;
+}
+
+.Subtotal{
+    margin-left:35% ;
+}
+
+button{
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 74%;
+    border-radius: 5px;
+}
+  
+.like{
+    height: 30%;
+}
+
+#bluedress{
+    margin-right: 26px;
+}
+
+.likebtn{
+    color: black;
+}
+
+.likebtn.active{
+    color: red;
+} */
+
+
+
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle,#dfecee, #de95d1 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartbody {
+    padding: 20px;
+
+    background-color: #ecf2f4f7;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #6a2b6833;
+}
+
+.formheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formtitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.deleteall {
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+}
+
+.itemslist {
+    display: flex;
+    flex-direction: column;
+}
+
+.workdress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imgcontainer1 {
+    margin-right: 10px;
+}
+
+.imgcontainer1 img {
+    width: 50px;
+}
+
+.like {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.description {
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.size {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.count {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    margin:20px;
+}
+
+#count1{
+    margin-right: 20px;
+}
+
+#count2, #count3{
+    margin-right: 12px;
+
+}
+
+.minus{
+    font-weight: 500;
+    font-size: 16px;
+}
+.minus:hover, .add:hover{
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.deleteitem {
+    font-size: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.checkout {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    
+}
+
+.sumup {
+    display: flex;
+    justify-content:space-around;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Subtotal {
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.totalitems {
+    font-size: 14px;
+    color: #888;
+    margin-left: 20%;
+}
+
+.totalamount {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.like{
+    color: black;
+}
+
+.likebtn{
+    color: black;
+}
+
+.likebtn.active{
+    color: red;
+}
+
+
+/* Adjust the layout for smaller screens */
+@media screen and (max-width: 768px) {
+    
+    .itemslist {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .workdress .imgcontainer1 img {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+}
