@@ -265,10 +265,8 @@ body {
 }
 
 .count {
-    padding: 5px 10px;
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid #ddd;
     margin:20px;
 }
 
@@ -284,6 +282,15 @@ body {
 .minus{
     font-weight: 500;
     font-size: 16px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.add{
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
 }
 .minus:hover, .add:hover{
     cursor: pointer;
@@ -356,6 +363,12 @@ button {
 .likebtn.active{
     color: red;
 }
+
+.addToCart{
+    background-color: #c49fbc;
+    border-radius: 3px;
+}
+
 
 
 /* Adjust the layout for smaller screens */
