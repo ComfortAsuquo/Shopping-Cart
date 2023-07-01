@@ -360,10 +360,12 @@ button {
 
 /* Adjust the layout for smaller screens */
 @media screen and (max-width: 768px) {
-    
+
+
     .itemslist {
       display: flex;
       flex-direction: column;
+      overflow-x: hidden;
     }
   
     .workdress .imgcontainer1 img {
